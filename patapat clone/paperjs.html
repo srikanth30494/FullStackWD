@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paper Js excercise</title>
+	<link rel="stylesheet" type="text/css" href="paperjs.css">
+	<script type="text/paperscript" src="paper-full.js"></script>
+	<script type="text/paperscript" canvas="mycanvas">
+	<!-- 	
+		var myCircle = new Path.Circle((100,100), 50);
+		myCircle.fillColor ='white'; -->
+
+		var path = new Path();
+		
+		path.strokeColor = 'red';
+		var start = new Point(100, 100);
+		
+		path.moveTo(start);
+		
+		path.lineTo(start + [ 100, -50 ]);
+
+		var myCircle = new Path.Circle((100,100), 50);
+		myCircle.fillColor ='black';
+	</script>
+</head>
+<body>
+<canvas id="mycanvas" resize></canvas>
+</body>
+</html>

@@ -1,0 +1,72 @@
+.jumbotron{
+	height: 200px;
+	font-size-adjust: all;
+	text-align: center;
+	background: #4178aa;
+	color: white;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	text-transform: uppercase;
+}
+#result {
+	text-transform: uppercase;
+	text-align: center;
+	color: #4178aa;
+	font-weight: bold;
+	display: inline-block;
+}
+
+#menu {
+	text-align: center;
+	height: 30px;
+	background: white;
+	padding: 0px;
+}
+
+.square {
+	width: 30%;
+	margin: 1.66%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	border-radius: 20px;
+	transition: background 0.6s;
+	--webkit-transition:background 0.6s;
+	-moz-transition:background 0.6s;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0px auto;
+}
+
+body{
+	background-color: #232323;
+	font-family: "Avenir", "Montserrat";
+}
+
+.selected {
+	background: #4178aa;
+}
+
+button {
+	background-color: white;
+	border: none;
+	color: #4178aa;
+	text-align: center;
+	height: 30px;
+	font-size: inherit;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: all 0.3s;
+	outline: none;
+}
+
+button:hover {
+	background-color: #4178aa;
+	color: white;
+}
